@@ -3,13 +3,11 @@ class Project
 
   def initialize(title)
     @title = title
+    @backers = backers
   end
 
   def add_backer(backer)
-    backer
+    @backers << backer
   end
 
-  def backers
-
-  end
 end
